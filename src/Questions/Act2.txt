@@ -1,0 +1,12 @@
+Zach Rudy
+Mr. Kummer
+AP Computer Science B
+5/4/16
+
+Activity 2 Questions:
+
+1.  To make pink, take out all green, ending up with R=255,G=0,B=255
+2.  To make yellow, take out all blue, ending up with R=255,G=255,B=0
+3.  To make purple, take out half the red and all the green, ending up with R=127,G=0,B=255
+4.  To make white, leave everything full, ending up with R=255,G=255,B=255
+5.  To make dark gray, leave take a lot away from all three, ending up with R=100,G=100,B=100

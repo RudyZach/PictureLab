@@ -1,10 +1,9 @@
 package Preclasses;
 
-import javax.swing.JFileChooser;
-import javax.swing.JFrame;
-import java.util.Properties;
-import java.io.*;
-import java.net.*;
+import javax.swing.*;
+import java.io.File;
+import java.net.URL;
+import java.net.URLDecoder;
   
 /**
  * A class to make working with a file chooser easier
@@ -110,7 +109,7 @@ public class FileChooser
         // get the URL for where we loaded this class 
         Class currClass = Class.forName("FileChooser");
         URL classURL = currClass.getResource("FileChooser.class");
-        URL fileURL = new URL(classURL,"../images/");
+        URL fileURL = new URL(classURL,"images/");
         directory = fileURL.getPath();
         directory = URLDecoder.decode(directory, "UTF-8");
         dirFile = new File(directory);
