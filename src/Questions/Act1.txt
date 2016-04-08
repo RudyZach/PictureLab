@@ -5,3 +5,6 @@ AP Computer Science B
 
 Activity 1 Questions:
 
+1.  It takes 8 bits to represent the values from 0 to 255.
+2.  It would take 3 bytes to represent a color in the RBG color model.
+3.  There are 307,200 pixels in a picture that is 640 pixels wide by 480  pixels high.
