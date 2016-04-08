@@ -14,7 +14,6 @@ import java.net.URLDecoder;
  */
 public class FileChooser 
 {
-  
   /////////////////////// methods /////////////////////////////
   
   /**
@@ -109,7 +108,7 @@ public class FileChooser
         // get the URL for where we loaded this class 
         Class currClass = Class.forName("FileChooser");
         URL classURL = currClass.getResource("FileChooser.class");
-        URL fileURL = new URL(classURL,"images/");
+        URL fileURL = new URL(classURL, "/Users/rudyzach/Desktop/Images/");
         directory = fileURL.getPath();
         directory = URLDecoder.decode(directory, "UTF-8");
         dirFile = new File(directory);
