@@ -61,6 +61,38 @@ public class IntArrayWorker
       }
     }
   }
+
+  public int getColTotal(int col) {
+    int sum = 0;
+    for (int[] arr : matrix) {
+      sum += arr[col];
+    }
+    return sum;
+  }
+
+  public int getLargest() {
+    int largest = 0;
+    for (int[] arr : matrix) {
+      for (int i : arr) {
+        if (i >= largest)
+          largest = i;
+      }
+    }
+
+    return largest;
+  }
+
+  public int getCount(int n) {
+    int total = 0;
+    for (int[] arr : matrix) {
+      for (int i : arr) {
+        if (i == n)
+          total++;
+      }
+    }
+
+    return total;
+  }
   
   /**
    * print the values in the array in rows and columns
