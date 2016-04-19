@@ -1,5 +1,3 @@
-package Preclasses;
-
 import java.awt.Color;
 
 /**

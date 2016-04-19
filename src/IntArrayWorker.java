@@ -1,5 +1,3 @@
-package Preclasses;
-
 public class IntArrayWorker
 {
   /** two dimensional matrix */
